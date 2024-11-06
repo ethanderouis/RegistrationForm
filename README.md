@@ -10,3 +10,10 @@ My notes:
 7. The first input element with a type of submit is automatically set to submit its nearest parent form element.
 8. Certain type attribute values have built in validation (ex: type="email" has the @ value validation)
 9. For password type, patter attribute could be added to specify validations and takes in regular expressions (pattern="[a-z0-5]{8,}"). This stands for 8 or more lower case letter or 0 to 5 digits.
+10. The name attribute can be used to related two radio inputs. Just make sure they share the same name.
+11. The checked attribut in radio input element will load the form where that radio button automatically checked.
+12. Best accessibility practices require input (uses id) and label (uses for) elementd being linked. They should have the same values.
+13. The input type file is used if the user needs to upload a file.
+14. The select element can be used to add a dropdown to the form. It is a container for a group of option elements. Each option element acts as a label for each dropdown option. Both of the element require a closing tag.
+15. To make it useful, each option element must have a value attribute. Without which, the text content of the option will be submitted to the server.
+16. The textarea element acts the same as an input element with a text type. However, it is a great feature of being able to receive multi-line text. The rows and cols attribute to change the textarea elements' size.
