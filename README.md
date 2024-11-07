@@ -17,3 +17,8 @@ My notes:
 14. The select element can be used to add a dropdown to the form. It is a container for a group of option elements. Each option element acts as a label for each dropdown option. Both of the element require a closing tag.
 15. To make it useful, each option element must have a value attribute. Without which, the text content of the option will be submitted to the server.
 16. The textarea element acts the same as an input element with a text type. However, it is a great feature of being able to receive multi-line text. The rows and cols attribute to change the textarea elements' size.
+17. In form submissions, it is both good practice and useful to provide each submittable element a name attribute. It will used to identify the element in the form submission. Each input element should get one, except for the radio buttons.
+18. Personal note: Tahoma is a pretty simple and neat font (font-family: Tahoma).
+19. During development, it useful to see fieldset default borders. But, it can make content appear separate.
+20. The last element of a specific type can be selected using last-of-type CSS pseudo-class (p:last-of-type{what ever css design}).
+21. You can use an attribute selector to style specific elements using their specified attirubte values (input[name="password"]).

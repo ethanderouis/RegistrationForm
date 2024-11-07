@@ -6,10 +6,99 @@ body {
 
     background-color: #1b1b32;
     color: #f5f6f7;
+
+    font-family: Tahoma;
+    font-size: 16px;
 }
 
 label {
     display: block;
 
     margin: 0.5rem 0;
+}
+
+h1, p {
+    margin: 1em auto;
+
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+
+    max-width: 500px;
+    min-width: 300px;
+
+    width: 60vw;
+
+    padding-bottom: 2em;
+}
+
+fieldset {
+    border: none;
+    border-bottom: 3px solid #3B3B4F;
+
+    padding: 2rem 0 /* 2rem for top and bottom, and 0 for left and right. */
+}
+
+/* selecting the last fieldset only using css pseudo selector. */
+fieldset:last-of-type {
+    border-bottom: none;
+}
+
+input, textarea, select {
+    width: 100%;
+
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+
+    min-height: 2em;
+}
+
+/* make the input radio buttons inline */
+.inline {
+    width: unset; /* removes the earlier rule */
+
+    margin-right: 0.5em;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+
+    vertical-align: middle;
+}
+
+/* blending input and textarea with the background */
+input, textarea {
+    background-color: #0A0A23;
+    border: 1px solid #0A0A23;
+
+    color: #FFFFFF;
+    min-height: 2em;
+}
+
+input[type="submit"] {
+    display: block;
+
+    width: 60%;
+    height: 2em;
+
+    min-width: 300px;
+
+    margin: 1em auto;
+
+    font-size: 1.1rem;
+
+    background-color: #3B3B4F;
+    border-color: white;
+
+}
+
+input[type="file"] {
+    padding: 1px 2px;
+}
+
+a {
+    color: #DFDFE2;
 }
